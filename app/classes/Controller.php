@@ -4,12 +4,12 @@ namespace Classes;
 
 class Controller
 {
-    public static function makeFizzBuzz($from, $until)
+    public function makeFizzBuzz($from, $until, Number $Number)
     {
         $result = '';
 
         for ($current = $from; $current <= $until; $current++) {
-            $result .= Number::translateToFizzBuzz($current) . "\n";
+            $result .= $Number->translateToFizzBuzz($current) . "\n";
         }
 
         return $result;

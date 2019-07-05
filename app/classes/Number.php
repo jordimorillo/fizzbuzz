@@ -13,7 +13,7 @@ class Number
      *
      * @return string
      */
-    public static function translateToFizzBuzz(int $int): string
+    public function translateToFizzBuzz(int $int): string
     {
         $output = '';
 
