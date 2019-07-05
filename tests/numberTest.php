@@ -5,27 +5,33 @@ use PHPUnit\Framework\TestCase;
 
 class numberTest extends TestCase
 {
-    public function testNumberIsFizz() {
+    public function testNumberIsFizz()
+    {
         $this->assertSame('Fizz', Number::translateToFizzBuzz(3));
     }
 
-    public function testNumberIsBuzz() {
+    public function testNumberIsBuzz()
+    {
         $this->assertSame('Buzz', Number::translateToFizzBuzz(5));
     }
 
-    public function testNumberIsFizzBuzz() {
+    public function testNumberIsFizzBuzz()
+    {
         $this->assertSame('FizzBuzz', Number::translateToFizzBuzz(15));
     }
 
-    public function testNumberIsNumberFour() {
+    public function testNumberIsNumberFour()
+    {
         $this->assertSame('4', Number::translateToFizzBuzz(4));
     }
 
-    public function testIfANumberNotMultipleOfThreeWithAThreeInItIsFizz() {
+    public function testIfANumberNotMultipleOfThreeWithAThreeInItIsFizz()
+    {
         $this->assertSame('Fizz', Number::translateToFizzBuzz(31));
     }
 
-    public function testIfANumberNotMultipleOfFiveWithAFiveInItIsBuzz() {
+    public function testIfANumberNotMultipleOfFiveWithAFiveInItIsBuzz()
+    {
         $this->assertSame('Buzz', Number::translateToFizzBuzz(52));
     }
 }
