@@ -2,8 +2,6 @@
 
 require('vendor/autoload.php');
 
-use Classes\Number;
+use Classes\Controller;
 
-for ($i = 1; $i <= 100; $i++) {
-    echo Number::translateToFizzBuzz($i) . "\n";
-}
+echo Controller::makeFizzBuzz(1, 100);
