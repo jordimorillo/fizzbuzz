@@ -3,9 +3,8 @@
 require('vendor/autoload.php');
 
 use Classes\Number;
-use Classes\Controller;
+use Classes\FizzBuzz;
 
-$Controller = new Controller;
 $Number = new Number;
-
-echo $Controller->makeFizzBuzz(1, 100, $Number);
+$FizzBuzz = new FizzBuzz($Number);
+echo $FizzBuzz->make(1, 100);
