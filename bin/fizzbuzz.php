@@ -1,6 +1,7 @@
+#!/usr/bin/env php
 <?php
 
-require('vendor/autoload.php');
+require(dirname(__DIR__) . '/vendor/autoload.php');
 
 use Classes\NumberToFizzBuzzTranslator;
 use Classes\NumberToStringTranslator;
