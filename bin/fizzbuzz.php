@@ -8,10 +8,10 @@ use Classes\NumberToStringTranslator;
 use Classes\SequenceIterator;
 
 try {
-    $FizzBuzz = new SequenceIterator(new NumberToFizzBuzzTranslator());
-    echo $FizzBuzz->iterate(1, 100);
-    $FizzBuzz = new SequenceIterator(new NumberToStringTranslator());
-    echo $FizzBuzz->iterate(1, 100);
+    $fiz6zBuzz = new SequenceIterator(new NumberToFizzBuzzTranslator());
+    echo $fizzBuzz->iterate(1, 100);
+    $fizzBuzz = new SequenceIterator(new NumberToStringTranslator());
+    echo $fizzBuzz->iterate(1, 100);
 } catch (Exception $e) {
     echo $e;
 }

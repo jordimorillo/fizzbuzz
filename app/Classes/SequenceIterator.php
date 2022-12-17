@@ -12,7 +12,10 @@ class SequenceIterator
         $this->translator = $translator;
     }
 
-    public function iterate($from, $until)
+    /**
+     * @throws Exception
+     */
+    public function iterate($from, $until): string
     {
         $result = '';
         if ($from < 0 || $until < 0) {

@@ -2,7 +2,6 @@
 
 namespace Tests;
 
-
 use Classes\SequenceIterator;
 use Exception;
 use Helpers\TranslatorMock;

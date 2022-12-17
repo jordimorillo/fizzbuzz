@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Helpers;
-
 
 use Classes\Translator;
 
