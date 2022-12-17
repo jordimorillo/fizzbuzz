@@ -5,7 +5,8 @@
     "autoload": {
         "psr-4": {
             "Classes\\": "app/Classes/",
-            "Helpers\\": "tests/Helpers/"
+            "Helpers\\": "tests/Helpers/",
+            "Tests\\": "tests"
         }
     }
 }

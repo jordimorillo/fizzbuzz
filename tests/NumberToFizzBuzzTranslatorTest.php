@@ -1,9 +1,11 @@
 <?php
 
+namespace Tests;
+
 use Classes\NumberToFizzBuzzTranslator;
 use PHPUnit\Framework\TestCase;
 
-class numberToFizzBuzzTranslatorTest extends TestCase
+class NumberToFizzBuzzTranslatorTest extends TestCase
 {
     public function testNumberIsFizz()
     {

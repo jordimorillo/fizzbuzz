@@ -12,12 +12,6 @@ class SequenceIterator
         $this->translator = $translator;
     }
 
-    /**
-     * @param $from
-     * @param $until
-     * @return string
-     * @throws Exception
-     */
     public function iterate($from, $until)
     {
         $result = '';

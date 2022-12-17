@@ -1,8 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Tests;
 
 
+use Classes\SequenceIterator;
 use Exception;
 use Helpers\TranslatorMock;
 use PHPUnit\Framework\TestCase;
